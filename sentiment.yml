@@ -1,0 +1,18 @@
+logging:
+    level: DEBUG
+    loggers:
+      org.eclipse:  WARN
+      com.sun: WARN
+      io.dropwizard: INFO
+      org.apache.http: WARN
+    appenders:
+        - type: console
+          threshold: DEBUG
+          target: stderr
+
+        - type: file
+          threshold: DEBUG
+          currentLogFilename: ./logs/tweets.log
+          archivedLogFilenamePattern: ./logs/tweets-%d.log.gz
+          archivedFileCount: 5
+          timeZone: "America/Chicago"

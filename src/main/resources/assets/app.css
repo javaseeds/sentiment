@@ -1,0 +1,53 @@
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #E4F5A6;
+}
+
+tr:hover {
+    background-color: pink;
+}
+
+ul {
+    width: 60%;
+}
+li:hover {
+    border: solid thin blue;
+}
+
+.badSentimentWord {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    background-color: darkred;
+}
+
+.goodSentimentWord {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    background-color: darkgreen;
+}
+
+.sentimentWord {
+    color: white;
+    font-weight: bold;
+    background-color: darkblue;
+}
+
+.positiveScore {
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.negativeScore {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
