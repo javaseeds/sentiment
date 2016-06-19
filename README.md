@@ -9,7 +9,7 @@ http://sentic.net/
 
 Twitter allows for modest use of their APIs for free but one needs to set up with specific OAuth
 keys and codes.  Those codes are not available here, I have them in a "secret.yml" file not checked in to
-this repository.  Dropwizard nicely allows for one the fly uploads of such information - the links below contain
+this repository.  Dropwizard nicely allows for on the fly uploads of such information - the links below contain
 instructions on how to get these keys using your Twitter account.  
 
 I have it in my YAML file to look like:
