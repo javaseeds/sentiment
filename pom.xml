@@ -25,7 +25,7 @@
 
         <!-- Libraries that I hope to use for this project -->
         <jdk.version>1.8</jdk.version>
-        <dropwizard.version>0.9.2</dropwizard.version>
+        <dropwizard.version>0.9.3</dropwizard.version>
         <signpost.version>1.2.1.2</signpost.version>
         <io.version>2.4</io.version>
         <httpcomponents.version>4.4.5</httpcomponents.version>
@@ -210,12 +210,12 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-assembly-plugin</artifactId>
-                    <version>2.4</version>
+                    <version>2.6</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-clean-plugin</artifactId>
-                    <version>2.6.1</version>
+                    <version>3.0.0</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -289,12 +289,12 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jxr-plugin</artifactId>
-                <version>2.4</version>
+                <version>2.5</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
-                <version>3.0.1</version>
+                <version>3.6</version>
                 <configuration>
                     <targetJdk>${jdk.version}</targetJdk>
                 </configuration>
